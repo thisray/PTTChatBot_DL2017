@@ -1,15 +1,23 @@
 ## ChatBot Model
-Use the preprocess dataset from [1_ptt_crawler](https://github.com/thisray/PTTChatBot_DL2017/tree/master/1_ptt_crawler), [2_make_QA](https://github.com/thisray/PTTChatBot_DL2017/tree/master/2_make_QA) to train the seq2seq model.
+Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.com/thisray/PTTChatBot_DL2017/tree/master/1_ptt_crawler), [2_make_QA](https://github.com/thisray/PTTChatBot_DL2017/tree/master/2_make_QA) to train the [seq2seq](https://www.tensorflow.org/tutorials/seq2seq) model.
 
 
 
 ## Environment
-* `lib` directory: code file
-* `works` directory: storage corpus dataset, model file
-(training corpus dataset put in: ./works/<model_name>/data/train) 
 * `main.py`: execution file
-
-
+* `/lib`: code file
+* `/works`: storage corpus dataset, model file (training corpus dataset put in: ./works/<model_name>/data/train) 
+    
+    works
+      ├── <model_name_1>
+      │         ├── data
+      │         │     ├── train - chat.txt.gz
+      │         │     └── test - test_set.txt
+      │         └── nn_models
+      │      
+      ├── <model_name_2>
+      ...
+      
 
 ## Execution Parameter
 * `mode`: train / test / chat / fight
@@ -19,10 +27,7 @@ Use the preprocess dataset from [1_ptt_crawler](https://github.com/thisray/PTTCh
 
 ## How to use
 
-run:
-    
-    $ python 1_make_QA.py  
-    $ python 2_deal_text.py
+
     
 
 ## Reference (Codes credits)
