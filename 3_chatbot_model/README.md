@@ -12,7 +12,7 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
 * `/lib`: code file
 * `/works`: storage corpus dataset and model file 
 * `chat.txt.gz`: **input corpus data**, put in `/train` and need to zip to `.gz` type
-* `test_set.txt`: testing data, put in `/test`
+* `test_set.txt`: testing data, put it in `/test` (you can write any Chinese sentence in this file to test)
 * `/nn_models`: auto build when training model (save tensorflow `checkpoint` file) 
 
 detail of `works` directory:  
@@ -30,13 +30,13 @@ detail of `works` directory:
 
 ## Data & Model download
 
-### Corpus data:
+### Training data:
 directly put `chat.txt.gz` in `/works/<model_name>/data/train/`
 * Gossiping training data: https://goo.gl/9yQXLQ
 * WomenTalk training data: https://goo.gl/224rbR
 
 ### Trained Model:
-It's entire `<model_name>` dir, put in `/works/` directly.
+It's entire `<model_name>` dir, after unzip, put in `/works/` directly.
 * Gossiping trained model: https://goo.gl/WS1PVX
 * WomenTalk trained model: https://goo.gl/xUdwys
 
