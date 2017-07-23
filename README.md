@@ -1,5 +1,6 @@
 # PTTChatBot_DL2017
 ![some results](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/pic.png)
+* Deep Learning and Practice course (NCTU, 2017 spring) final project
 * Group members: [Mion (ninetf135246)](https://github.com/ninetf135246), [thisray](https://github.com/thisray)
 
 ## Introduction
