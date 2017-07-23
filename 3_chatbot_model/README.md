@@ -6,9 +6,10 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
 ## Environment
 * `main.py`: execution file
 * `/lib`: code file
-* `/works`: storage corpus dataset, model file  
+* `/works`: storage corpus dataset, model file 
+* `chat.txt.gz`: input corpus data, need to zip to `.gz` type
+* `test_set.txt`: testing data
 </br>  
-
     
     works
       ├── <model_name_1>
@@ -25,7 +26,7 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
 ## Execution Parameter
 * `mode`: train / test / chat / fight
 * `model_name`: set `model_name` directory in works directory
-
+* other setting: in `/lib/config.py` 
 
 
 ## How to use
