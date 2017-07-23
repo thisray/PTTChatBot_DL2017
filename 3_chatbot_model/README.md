@@ -45,7 +45,7 @@ detail of `works` directory:
 * Gossiping trained model: https://goo.gl/WS1PVX
 * WomenTalk trained model: https://goo.gl/xUdwys
 * It's entire `<model_name>` dir, after unzip, put in `/works/` directly.
-* If you use these trained models directly, you sould ensure the model settings (`config.py`) are the same as [Model architecture]().
+* If you use these trained models directly, you sould ensure the model settings (`config.py`) are the same as [Model architecture](https://github.com/thisray/PTTChatBot_DL2017/tree/master/3_chatbot_model#model-architecture).
 
 ### Random sentence (optional):
 * random_sent.txt: https://goo.gl/mP7qPV
