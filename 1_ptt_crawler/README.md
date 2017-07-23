@@ -1,6 +1,9 @@
 ## PTT_crawler
 To crawl Chinese articles from [PTT](https://www.ptt.cc/bbs/index.html) and save into multiple `json` files.
 
+## Environment
+* python 2.7
+
 ## How to use
 
 the setting of `DL_ptt_crawer.py`:  
