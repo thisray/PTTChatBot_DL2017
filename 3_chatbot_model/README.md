@@ -7,7 +7,7 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
 * `main.py`: execution file
 * `/lib`: code file
 * `/works`: storage corpus dataset, model file  
-  
+</br>  
 
     
     works
