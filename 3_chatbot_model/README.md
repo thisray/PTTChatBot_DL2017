@@ -9,8 +9,10 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
 
 ## Directory instruction
 * `main.py`: execution file
-* `/lib`: code file
+* `/lib`: code files
 * `/works`: storage corpus dataset and model file 
+* `<model_name>`: the name of this directory is `model_name`
+* `/data`: put training and testing data (directory) here
 * `chat.txt.gz`: **input corpus data**, put in `/train` and need to zip to `.gz` type
 * `test_set.txt`: testing data, put it in `/test` (you can write any Chinese sentence in this file to test)
 * `/nn_models`: auto build when training model (save tensorflow `checkpoint` file) 
@@ -35,12 +37,12 @@ detail of `works` directory:
 * Gossiping training data: https://goo.gl/9yQXLQ
 * WomenTalk training data: https://goo.gl/224rbR
 
-### Trained Model:
+### Trained model:
 * It's entire `<model_name>` dir, after unzip, put in `/works/` directly.
 * Gossiping trained model: https://goo.gl/WS1PVX
 * WomenTalk trained model: https://goo.gl/xUdwys
 
-### optional:
+### Random sentence (optional):
 * use in `mode: fight`, can type `> random()` to select a random sentence in `random_sent.txt` as input
 * random_sent.txt: https://goo.gl/mP7qPV
 
@@ -62,7 +64,7 @@ after training: can run `test` / `chat` mode to chat with one chatbot:
     $ python main.py --mode test --model_name ptt_dataset
     $ python main.py --mode chat --model_name ptt_dataset
 
-`fight` mode: select **Two** `trained models` to chat with each other (e.g. `Gossiping_dataset` and `WomenTalk_dataset`):
+`fight` mode: select **Two** `trained models` to chat with each other:
     
     $ python main.py --mode fight --model_name Gossiping_dataset --model_2_name WomenTalk_dataset
 
