@@ -51,21 +51,20 @@ detail of `works` directory:
 * other parameter setting: see `/lib/config.py` 
 
 
-## How to use
+## How to use (example)
 
-prepare data in `ptt_dataset` and run `train` mode:  
+train model: prepare data in `/ptt_dataset` and run `train` mode:  
 
     $ python main.py --mode train --model_name ptt_dataset
 
-
-after training mode can run `test` / `chat` mode:
+after training: can run `test` / `chat` mode to chat with one chatbot:
     
     $ python main.py --mode test --model_name ptt_dataset
     $ python main.py --mode chat --model_name ptt_dataset
 
-`fight` mode with **two** `pre-train model` (e.g. `Gossiping_dataset` and `WomenTalk_dataset`):
+`fight` mode: select **Two** `trained models` to chat with each other (e.g. `Gossiping_dataset` and `WomenTalk_dataset`):
     
-    $ python main.py --mode fight --model_name Gossiping_dataset -- model_2_name WomenTalk_dataset
+    $ python main.py --mode fight --model_name Gossiping_dataset --model_2_name WomenTalk_dataset
 
 
 ## Reference (Codes credits)
