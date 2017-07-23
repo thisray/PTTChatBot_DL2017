@@ -28,11 +28,25 @@ detail of `works` directory:
       ...
 
 
+## Data & Model download
 
-## Execution Parameter
+### Corpus data:
+* Gossiping training data: https://goo.gl/9yQXLQ
+* WomenTalk training data: https://goo.gl/224rbR
+* put in /works/<model_name>/data/train/
+
+### Trained Model:
+* Gossiping trained model: https://goo.gl/WS1PVX
+* WomenTalk trained model: https://goo.gl/xUdwys
+
+### optional:
+* random_sent.txt: https://goo.gl/mP7qPV
+
+
+## Execution parameters
 * `mode`: train / test / chat / fight
 * `model_name`: set `model_name` directory in works directory
-* other setting: see `/lib/config.py` 
+* other parameter setting: see `/lib/config.py` 
 
 
 ## How to use
