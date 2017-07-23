@@ -1,9 +1,9 @@
 ## PTT_crawler
-crawl Chinese corpus from PTT
+To crawl Chinese corpus from [PTT](https://www.ptt.cc/bbs/index.html) and save into multiple `json` files.
 
 ## How to use
 
-setting in `DL_ptt_crawer.py`:  
+setting of `DL_ptt_crawer.py`:  
 
     save_dir_path: save directory (str)
     crawler_board: e.g. 'Gossiping', 'WomenTalk'  (str)
