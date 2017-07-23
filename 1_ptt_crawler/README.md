@@ -3,7 +3,7 @@ To crawl Chinese articles from [PTT](https://www.ptt.cc/bbs/index.html) and save
 
 ## How to use
 
-setting of `DL_ptt_crawer.py`:  
+the setting of `DL_ptt_crawer.py`:  
 
     save_dir_path: save directory (str)
     crawler_board: e.g. 'Gossiping', 'WomenTalk' (str)
