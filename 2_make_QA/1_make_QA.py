@@ -5,8 +5,6 @@ import os
 import random
 import logging
 
-# use: python 2.7
-
 # reference:
 # https://github.com/zake7749/PTT-Crawler
 

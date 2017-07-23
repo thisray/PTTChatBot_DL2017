@@ -8,8 +8,8 @@ In one of the course assignments, we have experimented with RNN to generate and 
 In order to build chatbots capable of handling a wide range to topics, we trained our chatbots using the Chinese corpus from two of the PTT gossip forums: Gossiping and Women Talk. Both forums have their own styles of opinionated expressions. We aim to create chatbots to deliver quarrelsome or sarcastic responds to input queries.
 
 ## Code instruction
-* `1_ptt_crawler`: crawl Chinese corpus from PTT.
-* `2_make_QA`: make data into Q & A type.
+* `1_ptt_crawler`: crawl Chinese articles from PTT.
+* `2_make_QA`: make data into Q & A corpus type.
 * `3_chatbot_model`: train & use chatbot.
 
 ## ChatBot environment

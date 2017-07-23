@@ -1,12 +1,12 @@
 ## PTT_crawler
-To crawl Chinese corpus from [PTT](https://www.ptt.cc/bbs/index.html) and save into multiple `json` files.
+To crawl Chinese articles from [PTT](https://www.ptt.cc/bbs/index.html) and save into multiple `json` files.
 
 ## How to use
 
 setting of `DL_ptt_crawer.py`:  
 
     save_dir_path: save directory (str)
-    crawler_board: e.g. 'Gossiping', 'WomenTalk'  (str)
+    crawler_board: e.g. 'Gossiping', 'WomenTalk' (str)
     crawler_from, crawler_to: page index (int)
     (e.g. the index of [https://www.ptt.cc/bbs/Gossiping/index24972.html] is 24972)
     
