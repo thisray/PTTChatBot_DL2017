@@ -8,7 +8,9 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
 * `/lib`: code file
 * `/works`: storage corpus dataset, model file 
 * `chat.txt.gz`: input corpus data, need to zip to `.gz` type
-* `test_set.txt`: testing data </br>  
+* `test_set.txt`: testing data  
+
+detail of `works` directory:  
     
     works
       ├── <model_name_1>
