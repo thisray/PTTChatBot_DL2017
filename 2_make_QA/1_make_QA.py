@@ -14,7 +14,7 @@ input_path = 'crawler_save/'
 data_path = base_path + input_path   
 
 ## output file name & path
-output_file_name = 'output_file'
+output_file_name = 'QA_file'
 output_file = './' + output_file_name + '.txt'
 
 ## load all json path

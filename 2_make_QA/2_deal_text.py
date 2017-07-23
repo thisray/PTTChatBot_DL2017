@@ -1,7 +1,7 @@
 import jieba
 
-input_data_path = './input_QA_data.txt'
-output_data_path = './output_QA_data.txt'
+input_data_path = './QA_file.txt'
+output_data_path = './splited_QA_data.txt'
 
 with open(input_data_path, 'r', encoding='utf-8') as dataset:
     with open(output_data_path, "w") as f:
