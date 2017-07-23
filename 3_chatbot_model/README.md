@@ -1,11 +1,15 @@
 ## ChatBot Model
 Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.com/thisray/PTTChatBot_DL2017/tree/master/1_ptt_crawler), [2_make_QA](https://github.com/thisray/PTTChatBot_DL2017/tree/master/2_make_QA) to train the [seq2seq](https://www.tensorflow.org/tutorials/seq2seq) model.
 
+## Model architecture
+![Architecture pic](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/Architecture.png)
+
 
 ## Environment
 * python version: > 3.0
 * requirement python package: tensorflow, numpy, jieba
 * tensorflow version: 1.0 
+
 
 ## Directory instruction
 * `main.py`: execution file
@@ -41,7 +45,7 @@ detail of `works` directory:
 * Gossiping trained model: https://goo.gl/WS1PVX
 * WomenTalk trained model: https://goo.gl/xUdwys
 * It's entire `<model_name>` dir, after unzip, put in `/works/` directly.
-* If you use these trained models directly, you sould ensure the model settings (`config.py`) are same.
+* If you use these trained models directly, you sould ensure the model settings (`config.py`) are the same as [Model architecture]().
 
 ### Random sentence (optional):
 * random_sent.txt: https://goo.gl/mP7qPV
@@ -67,10 +71,6 @@ after training: can run `test` / `chat` mode to chat with one chatbot:
 `fight` mode: select **Two** `trained model`s and let them chat with each other:
     
     $ python main.py --mode fight --model_name Gossiping_dataset --model_2_name WomenTalk_dataset
-
-
-## Architecture
-![Architecture pic](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/Architecture.png)
 
 
 ## Reference (Codes credits)
