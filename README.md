@@ -10,8 +10,8 @@ In order to build chatbots capable of handling a wide range to topics, we traine
 
 ## Directory instruction
 * [`/1_ptt_crawler`](https://github.com/thisray/PTTChatBot_DL2017/tree/master/1_ptt_crawler): crawl Chinese articles from PTT.
-* `/2_make_QA`: make data into Q & A corpus type.
-* `/3_chatbot_model`: train & use chatbot.
+* [`/2_make_QA`](https://github.com/thisray/PTTChatBot_DL2017/tree/master/2_make_QA): make data into Q & A corpus type.
+* [`/3_chatbot_model`](https://github.com/thisray/PTTChatBot_DL2017/tree/master/3_chatbot_model): train & use chatbot. (We provide the dataset & model we have trained here.)
 
 ## ChatBot environment
 * python version: > 3.0
