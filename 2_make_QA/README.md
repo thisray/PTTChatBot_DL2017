@@ -1,5 +1,5 @@
-## Make Q & A
-To make PTT articles from [PTT_crawler](https://github.com/thisray/PTTChatBot_DL2017/tree/master/1_ptt_crawler) into Q & A corpus type.
+## Make Q&A
+To make PTT articles from [PTT_crawler](https://github.com/thisray/PTTChatBot_DL2017/tree/master/1_ptt_crawler) into Q&A corpus type (one `.txt` file).
 
 ## Environment
 * python version: > 3.0
