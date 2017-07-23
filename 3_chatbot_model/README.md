@@ -64,7 +64,7 @@ after training: can run `test` / `chat` mode to chat with one chatbot:
     $ python main.py --mode test --model_name ptt_dataset
     $ python main.py --mode chat --model_name ptt_dataset
 
-`fight` mode: select **Two** `trained models` to chat with each other:
+`fight` mode: select **Two** `trained model`s and let them chat with each other:
     
     $ python main.py --mode fight --model_name Gossiping_dataset --model_2_name WomenTalk_dataset
 
