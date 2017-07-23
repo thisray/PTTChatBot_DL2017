@@ -1,15 +1,17 @@
-## 1_ptt_crawler
+## PTT_crawler
 crawl Chinese corpus from PTT
 
 ## How to use
 
-* setting:
+* setting:  
+
     save_dir_path = '/crawler_save'
     crawler_board = 'Gossiping' # 'WomenTalk'
     crawler_from = 0
     crawler_to = 1000 
     
-* run:
+* run:  
+    
     python DL_ptt_crawer.py
 
 

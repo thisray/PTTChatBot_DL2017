@@ -1,7 +1,5 @@
 #-*- coding: utf-8 -*-　
 
-# use: python 2.7
-
 # reference:
 # https://github.com/zake7749/PTT-Crawler
 # https://github.com/wy36101299/PTTcrawler/blob/master/pttcrawler.py
