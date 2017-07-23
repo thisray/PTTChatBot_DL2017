@@ -1,6 +1,6 @@
 # PTTChatBot_DL2017
 ![some results](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/pic.png)
-* Group member: [ninetf135246](https://github.com/ninetf135246), [thisray](https://github.com/thisray)
+* Group member: [Mion (ninetf135246)](https://github.com/ninetf135246), [thisray](https://github.com/thisray)
 
 ## Introduction
 In one of the course assignments, we have experimented with RNN to generate and process text sequences. It was a very interesting experience and motivated us to study whether it is possible to train talkshow chatbots.  
