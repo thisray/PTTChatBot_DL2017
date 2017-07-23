@@ -31,15 +31,17 @@ detail of `works` directory:
 ## Data & Model download
 
 ### Corpus data:
+directly put `chat.txt.gz` in `/works/<model_name>/data/train/`
 * Gossiping training data: https://goo.gl/9yQXLQ
 * WomenTalk training data: https://goo.gl/224rbR
-* put in /works/<model_name>/data/train/
 
 ### Trained Model:
+It's entire `<model_name>` dir, put in `/works/` directly.
 * Gossiping trained model: https://goo.gl/WS1PVX
 * WomenTalk trained model: https://goo.gl/xUdwys
 
 ### optional:
+use in `mode: fight`, can type `> random()`
 * random_sent.txt: https://goo.gl/mP7qPV
 
 
