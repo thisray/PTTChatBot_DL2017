@@ -3,16 +3,16 @@ crawl Chinese corpus from PTT
 
 ## How to use
 
-setting:  
-    
-    save_dir_path = '/crawler_save'
-    crawler_board = 'Gossiping' # 'WomenTalk'
-    crawler_from = 0
-    crawler_to = 1000 
+setting in `DL_ptt_crawer.py`:  
+
+    save_dir_path: save directory
+    crawler_board: e.g. 'Gossiping', 'WomenTalk' 
+    crawler_from, crawler_to: page index
+    (e.g. https://www.ptt.cc/bbs/Gossiping/index24972.html)
     
 run:  
-    
-    python DL_ptt_crawer.py
+
+    $ python DL_ptt_crawer.py
 
 
 ## Reference (Codes credits)
