@@ -1,12 +1,16 @@
 # PTTChatBot_DL2017
+![some results](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/pic.png)
 
-## Introdution
+## Intro
 In one of the course assignments, we have experimented with RNN to generate and process text sequences. It was a very interesting experience and motivated us to study whether it is possible to train talkshow chatbots.  
 
 In order to build chatbots capable of handling a wide range to topics, we trained our chatbots using the Chinese corpus from two of the PTT gossip forums: Gossiping and Women Talk. Both forums have their own styles of opinionated expressions. We aim to create chatbots to deliver quarrelsome or sarcastic responds to input queries.
 
-## Results
-![some results](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/pic.png)
+## Instruction
+
+* `1_ptt_crawler`: crawl Chinese corpus from PTT.
+* `2_make_QA`: make data into Q & A type.
+* `3_chatbot_model`: train & use chatbot.
 
 
 ## Reference (Codes credits)
