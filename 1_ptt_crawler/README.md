@@ -5,10 +5,10 @@ crawl Chinese corpus from PTT
 
 setting in `DL_ptt_crawer.py`:  
 
-    save_dir_path: save directory
-    crawler_board: e.g. 'Gossiping', 'WomenTalk' 
-    crawler_from, crawler_to: page index
-    (e.g. https://www.ptt.cc/bbs/Gossiping/index24972.html)
+    save_dir_path: save directory (str)
+    crawler_board: e.g. 'Gossiping', 'WomenTalk'  (str)
+    crawler_from, crawler_to: page index (int)
+    (e.g. the index of [https://www.ptt.cc/bbs/Gossiping/index24972.html] is 24972)
     
 run:  
 
