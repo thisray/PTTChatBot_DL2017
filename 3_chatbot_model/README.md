@@ -33,18 +33,18 @@ detail of `works` directory:
 ## Data & Model download
 
 ### Training data:
-* directly put `chat.txt.gz` in `/works/<model_name>/data/train/`
 * Gossiping training data: https://goo.gl/9yQXLQ
 * WomenTalk training data: https://goo.gl/224rbR
+* directly put `chat.txt.gz` in `/works/<model_name>/data/train/`
 
 ### Trained model:
-* It's entire `<model_name>` dir, after unzip, put in `/works/` directly.
 * Gossiping trained model: https://goo.gl/WS1PVX
 * WomenTalk trained model: https://goo.gl/xUdwys
+* It's entire `<model_name>` dir, after unzip, put in `/works/` directly.
 
 ### Random sentence (optional):
-* use in `mode: fight`, can type `> random()` to select a random sentence in `random_sent.txt` as input
 * random_sent.txt: https://goo.gl/mP7qPV
+* use in `mode: fight`, can type `> random()` to select a random sentence in `random_sent.txt` as input
 
 
 ## Execution parameters
