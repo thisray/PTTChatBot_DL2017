@@ -6,7 +6,8 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
 ## Environment
 * `main.py`: execution file
 * `/lib`: code file
-* `/works`: storage corpus dataset, model file (training corpus dataset put in: ./works/<model_name>/data/train)  
+* `/works`: storage corpus dataset, model file  
+  
 
     
     works
@@ -19,7 +20,7 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
       ├── <model_name_2>
       ...
 
-    
+
 
 ## Execution Parameter
 * `mode`: train / test / chat / fight
