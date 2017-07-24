@@ -14,6 +14,7 @@ from time import sleep
 
 def fight(args, args1):
     
+    #create two graphs to build nested sessions
     model_graph = tf.Graph()
     adv_graph = tf.Graph()
 
@@ -44,17 +45,19 @@ def fight(args, args1):
     # # gpu_options test
     # gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=args.gpu_usage)
     # config=tf.ConfigProto(gpu_options=gpu_options)
-
+    
+    ## 1st session
     with sess.as_default():
         # Create model and load parameters.
         with model_graph.as_default():
                 args.batch_size = 1  # We decode one sentence at a time.
                 model = create_model(sess, args)
 
-        # Load vocabularies.
+                # Load vocabularies.
                 vocab_path = os.path.join(args.data_dir, "vocab%d.in" % args.vocab_size)
                 vocab, rev_vocab = data_utils.initialize_vocabulary(vocab_path)
         
+        ## 2nd session
         with adv_sess.as_default():
             with adv_graph.as_default():
                 
