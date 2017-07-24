@@ -31,6 +31,10 @@ detail of `works` directory:
       │         └── nn_models
       │      
       ├── <model_name_2>
+      │         ├── data
+      │         │     ├── train - chat.txt.gz
+      │         │     └── test - test_set.txt
+      │         └── nn_models      
       ...
 
 
