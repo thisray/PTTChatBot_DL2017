@@ -14,6 +14,7 @@ from time import sleep
 
 def fight(args, args1):
     
+    #create two graphs to build nested sessions
     model_graph = tf.Graph()
     adv_graph = tf.Graph()
 
