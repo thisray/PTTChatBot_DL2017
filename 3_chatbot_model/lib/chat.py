@@ -24,6 +24,9 @@ def chat(args):
         sys.stdout.flush()
         sentence = sys.stdin.readline()
 
+        if len(sentence.split(' ')) < 2:
+            sentence = sentence_split(sentence)
+
         while sentence:
             predicted_sentence = get_predicted_sentence(args, sentence, vocab, rev_vocab, model, sess)
             # print(predicted_sentence)
