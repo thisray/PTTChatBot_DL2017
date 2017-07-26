@@ -24,7 +24,7 @@ def chat(args):
         sys.stdout.flush()
         sentence = sys.stdin.readline()
 
-        if len(sentence.split(' ')) < 2:
+        if len(sentence.split(' ')) < 2: 
             sentence = sentence_split(sentence)
 
         while sentence:
