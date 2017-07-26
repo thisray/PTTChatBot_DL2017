@@ -41,8 +41,11 @@ def chat(args):
             sys.stdout.write("> ")
             sys.stdout.flush()
             sentence = sys.stdin.readline()
+            
+            if len(sentence.split(' ')) < 2: 
+                sentence = sentence_split(sentence)
 
-
+                
 ## jieba split input sentence
 def sentence_split(sentence):
     seg_list = jieba.cut(sentence, cut_all=False)
