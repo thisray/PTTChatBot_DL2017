@@ -10,6 +10,13 @@ Use the preprocess Chinese corpus dataset from [1_ptt_crawler](https://github.co
 * requirement python package: tensorflow, numpy, jieba
 * tensorflow version: 1.0 
 
+degrade tensorflow into 1.0.1:
+
+    #  for python 3.5
+    $ pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.0.1-cp35-cp35m-linux_x86_64.whl
+    
+    #  for python 2.7
+    $ pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.0.1-cp27-cp27m-linux_x86_64.whl
 
 ## Directory instruction
 * `main.py`: execution file
