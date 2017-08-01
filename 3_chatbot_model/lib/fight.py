@@ -14,12 +14,18 @@ from time import sleep
 
 def fight(args, args1):
     
+    if args.gpu_usage == 0:
+        #config = tf.ConfigProto(device_count = {'GPU': 0})
+        os.environ['CUDA_VISIBLE_DEVICES'] = ''
+
+    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=args.gpu_usage)
+    config=tf.ConfigProto(gpu_options=gpu_options)
     #create two graphs to build nested sessions
     model_graph = tf.Graph()
     adv_graph = tf.Graph()
 
-    adv_sess = tf.Session(graph=adv_graph)
-    sess = tf.Session(graph=model_graph)
+    adv_sess = tf.Session(graph=adv_graph, config=config)
+    sess = tf.Session(graph=model_graph, config=config)
 
     total_sent = []
     total_sent = open('%s/random_sent.txt' % args.work_root, 'r').readlines()

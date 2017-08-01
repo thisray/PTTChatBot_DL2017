@@ -26,10 +26,12 @@ def predict(args, debug=False):
     # with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
     
     if args.gpu_usage == 0:
-        config = tf.ConfigProto(device_count = {'GPU': 0})
-    else:
-        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=args.gpu_usage)
-        config=tf.ConfigProto(gpu_options=gpu_options)
+        #config = tf.ConfigProto(device_count = {'GPU': 0})
+        os.environ['CUDA_VISIBLE_DEVICES'] = ''
+
+    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=args.gpu_usage)
+    config=tf.ConfigProto(gpu_options=gpu_options)
+
 
     with tf.Session(config=config) as sess, open(results_path, 'w') as results_fh:
         # Create model and load parameters.

@@ -10,7 +10,16 @@ import jieba
 
 
 def chat(args):
-    with tf.Session() as sess:
+    
+    if args.gpu_usage == 0:
+        #config = tf.ConfigProto(device_count = {'GPU': 0})
+        os.environ['CUDA_VISIBLE_DEVICES'] = ''
+    
+    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=args.gpu_usage)
+    config=tf.ConfigProto(gpu_options=gpu_options)
+
+
+    with tf.Session(config=config) as sess:
         # Create model and load parameters.
         args.batch_size = 1  # We decode one sentence at a time.
         model = create_model(sess, args)
