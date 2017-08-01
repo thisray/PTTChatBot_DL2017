@@ -22,7 +22,16 @@ def predict(args, debug=False):
     results_filename = '_'.join(['results', str(args.num_layers), str(args.size), str(args.vocab_size)])
     results_path = os.path.join(args.results_dir, results_filename+'.txt')
 
-    with tf.Session() as sess, open(results_path, 'w') as results_fh:
+    # gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=args.gpu_usage)
+    # with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
+    
+    if args.gpu_usage == 0:
+        config = tf.ConfigProto(device_count = {'GPU': 0})
+    else:
+        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=args.gpu_usage)
+        config=tf.ConfigProto(gpu_options=gpu_options)
+
+    with tf.Session(config=config) as sess, open(results_path, 'w') as results_fh:
         # Create model and load parameters.
         args.batch_size = 1
         model = create_model(sess, args)
