@@ -65,13 +65,15 @@ detail of `works` directory:
 ## Execution parameters
 * `mode`: train / test / chat / fight
 * `model_name`: set `model_name` directory in works directory
+* `gpu_usage`: 0 (CPU mode) / > 0.0 (GPU mode)
 * other parameter setting: see `/lib/config.py` 
 
 
 ## How to use (example)
 
-train model: prepare data in `/ptt_dataset` and run `train` mode:  
+train model: prepare data in `/ptt_dataset` and run `train` mode: 
 
+    # It is not recommended to train in CPU mode.
     $ python main.py --mode train --model_name ptt_dataset
 
 after training: can run `test` / `chat` mode to chat with one chatbot:
