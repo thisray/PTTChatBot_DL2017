@@ -87,7 +87,7 @@ after training: can run `test` / `chat` mode to chat with one chatbot:
 
 
 ## Some results
-![some results](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/pic.png)
+![some results](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/pic_n.png)
 
 ## Reference (Codes credits)
 * https://www.tensorflow.org/tutorials/seq2seq
