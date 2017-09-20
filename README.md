@@ -20,6 +20,7 @@ In order to build chatbots capable of handling a wide range to topics, we traine
 
 ## Reference (Codes credits)
 * https://github.com/fxsjy/jieba
+* https://github.com/ldkrsi/jieba-zh_TW
 * https://github.com/zake7749/PTT-Chat-Generator
 * https://www.tensorflow.org/tutorials/seq2seq
 * https://github.com/sherjilozair/char-rnn-tensorflow

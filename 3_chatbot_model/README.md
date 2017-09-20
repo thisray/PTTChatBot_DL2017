@@ -90,6 +90,7 @@ after training: can run `test` / `chat` mode to chat with one chatbot:
 ![some results](https://github.com/thisray/PTTChatBot_DL2017/blob/master/0_pic/pic_n.png)
 
 ## Reference (Codes credits)
+* https://github.com/ldkrsi/jieba-zh_TW
 * https://www.tensorflow.org/tutorials/seq2seq
 * https://github.com/sherjilozair/char-rnn-tensorflow
 * https://github.com/Marsan-Ma/tf_chatbot_seq2seq_antilm
